@@ -1,0 +1,158 @@
+/* *{
+  /* display: inline-block; */
+  /* border: black 1px solid; */ 
+*{
+  font-size: 16px;
+}
+section .container{
+  color: #2d2d2d;
+}
+nav img{
+  display: flex;
+  align-items: center;
+  
+  justify-content: space-between;
+}
+ nav ul{
+  /* display: block; */
+  /* order: 2; */
+} 
+.logo{
+  width: 20%;
+}
+.cart-icon{
+  width: 10%;
+}
+header{
+  height: 500px;
+  min-width: 100%;
+  /* text-align: center; */
+  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/banner-girl.png'),url('images/flower-bkgd.jpg');
+  background-repeat: no-repeat, no-repeat,repeat;
+  background-size: contain,contain,cover;
+  background-position: center,center 2em, center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+p{
+  font-size: 1.1rem;
+  font-family: 'Raleway', sans-serif;
+  line-height: 2;
+  text-align: center;
+}
+h2{
+  font-size: 2rem;
+  font-style:italic;
+  margin: 1.5rem auto;
+}
+h3{
+  font-size: 1.5rem;
+}
+h2,h3 {
+  font-family: 'Playfair Display', sans-serif;
+}
+.first{
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+.second{
+  font-size: 40px;
+  color: white;
+}
+.container h2{
+  display: inline-block;
+}
+.container{
+  max-width :1240px;
+  margin: 10px auto;
+  text-align: center;
+}
+/* .container p{
+  font-size: 24px;
+} */
+body{
+  /* display: inline-block; */
+  /* border: black 1px solid; */
+}
+.grey{
+  color: #969696;
+}
+.orange{
+  color: #e2574c;
+}
+.bold{
+  font-weight: bold;
+}
+footer{
+  display: flex;
+  height: 200px;
+  background-color:black; 
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.sign-up{
+  background-image:url('images/wave-bkgd.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.sign-up h2,.sign-up p,footer p{
+  color:white;
+}
+.orange li{
+  text-transform: uppercase;
+  display:inline-block;
+  padding: 0 20px;
+}
+/* positioning of the sign-up box in the sign-up section*/
+.email-box{
+  display:inline-block;
+  margin: 1.5rem auto;
+}
+form{
+  display:flex;
+  justify-content: space-between;
+  font-size: 10px;
+  align-items: center;
+  width: 400px;
+  height: 41px;
+  padding: 0 5px 0 30px;
+  border-radius: 18px;
+  background: white;
+}
+input[type=email]{
+  border: none;
+}
+input[type=submit]{
+  color: white;
+  width: 25%;
+  height: 35px;
+  border: none;
+  /* padding: 2px 0px; */
+  background: #e2574c;
+  border-radius: 16px;
+}
+/* positioning of left footer */
+.extra-info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+/* positioning of right footer */
+.social-media{
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+/* overwrite the p styling of left footer */
+.extra-info p{ 
+  text-align: left;
+}
+/* making icons and names of social media on the same row */
+.social-media ul li i, ul li p{
+  display: inline;
+}
