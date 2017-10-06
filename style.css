@@ -7,21 +7,32 @@
 section .container{
   color: #2d2d2d;
 }
-nav img{
+nav{
+  font-family: "Raleway", sans-serif;
   display: flex;
   align-items: center;
-  
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 10px;
 }
- nav ul{
-  /* display: block; */
-  /* order: 2; */
-} 
+nav ul{
+  border-top: 0.2px solid #d7d7d7;
+  text-align: center;
+  width: 100%;
+  align-self: center;
+  margin: 0;
+  padding: 10px 0;
+}
 .logo{
+  height: 5%;
   width: 20%;
+  padding: 5px;
 }
 .cart-icon{
-  width: 10%;
+  width: 5%;
+  height: 5%;
+  padding: 5px;
+  /* align-self: flex-end; */
 }
 header{
   height: 500px;
@@ -50,7 +61,7 @@ h2{
 h3{
   font-size: 1.5rem;
 }
-h2,h3 {
+h2,h3,.second {
   font-family: 'Playfair Display', sans-serif;
 }
 .first{
@@ -67,7 +78,7 @@ h2,h3 {
 }
 .container{
   max-width :1240px;
-  margin: 10px auto;
+  margin: 0 auto;
   text-align: center;
 }
 /* .container p{
