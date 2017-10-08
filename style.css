@@ -7,6 +7,7 @@ body{
 section .container{
   color: #2d2d2d;
 }
+/* styling navigation bar */
 nav{
   font-family: "Raleway", sans-serif;
   display: flex;
@@ -34,6 +35,7 @@ nav ul{
   height: 5%;
   padding: 5px 5px 5px 15%;
 }
+/* header (banner girl) styling */
 header{
   height: 500px;
   min-width: 100%;
@@ -46,6 +48,7 @@ header{
   align-items: center;
   justify-content: center;
 }
+/* gereral texts styling */
 p{
   font-size: 1rem;
   font-family: 'Raleway', sans-serif;
@@ -88,7 +91,58 @@ h2,h3,.second {
 .bold{
   font-weight: bold;
 }
-
+/* category section styling */
+.categories ul{
+  display:flex;
+  flex-wrap: wrap;
+  color: white;
+  align-items: center;
+  margin: 0 -1%;
+}
+.categories ul li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vmin;
+  background-size: cover;
+  text-transform: uppercase;
+  margin: 1%;
+  background-position: center;
+}
+.mens-category{
+  background-image: url('images/mens-category.jpg');
+  /* width: 100%; */
+  flex-basis:98%;
+  /* background-size: 98% auto; */
+}
+.trends-category{
+  background-image: url('images/trends-category.jpg');
+  /* width: 50%; */
+  /* height: 150px; */
+  flex-basis:48%;
+}
+.glasses-category{
+  background-image: url('images/glasses-category.jpg');
+  /* width: 50%; */
+  flex-basis:48%;
+}
+.sale-category{
+  background-image: url('images/sale-category.jpg');
+  /* width: 50%; */
+  flex-basis: 48%;
+}
+.bags-category{
+  background-image: url('images/bags-category.jpg');
+  /* width: 50%;
+   */
+   flex-basis: 48%;
+}
+.womens-category{
+  background-image: url('images/womens-category.jpg');
+  /* width: 100%; */
+  flex-basis: 98%;
+}
+/* sign-up section styling */
 .sign-up{
   background-image:url('images/wave-bkgd.jpg');
   background-size: cover;
@@ -133,6 +187,7 @@ input[type=submit]{
 input[type=submit]:hover{
   opacity: 0.7;
 }
+/* footer styling */
 footer{
   height: 20%;
   background-color:black; 
@@ -158,6 +213,12 @@ footer{
 footer ul li{
   padding: 5px;
 }
+footer ul{
+  display: flex;
+  justify-content: center;
+}
+
+
 /* tablet version */
 @media screen and (min-width: 600px){
   /* changing nav layout */
@@ -201,6 +262,7 @@ footer ul li{
     display: inline;
   }
 }
+
 /* desktop version */
 @media screen and (min-width: 1240px){
  
