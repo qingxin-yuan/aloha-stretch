@@ -218,7 +218,6 @@ footer ul{
   justify-content: center;
 }
 
-
 /* tablet version */
 @media screen and (min-width: 600px){
   /* changing nav layout */
@@ -248,7 +247,7 @@ footer ul{
     margin-left: 10px;
   }
   /* positioning of right footer */
-  .social-media{
+  .social-media ul{
     display: flex;
     flex-direction: column;
     margin-right: 10px;
