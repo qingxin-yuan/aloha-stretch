@@ -1,8 +1,8 @@
-/* *{
-  /* display: inline-block; */
-  /* border: black 1px solid; */ 
 *{
   font-size: 16px;
+}
+body{
+  width: 100%;
 }
 section .container{
   color: #2d2d2d;
@@ -33,12 +33,10 @@ nav ul{
   width: 5%;
   height: 5%;
   padding: 5px 5px 5px 15%;
-  /* align-self: flex-end; */
 }
 header{
   height: 500px;
   min-width: 100%;
-  /* text-align: center; */
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/banner-girl.png'),url('images/flower-bkgd.jpg');
   background-repeat: no-repeat, no-repeat,repeat;
   background-size: contain,contain,cover;
@@ -82,13 +80,6 @@ h2,h3,.second {
   margin: 0 auto;
   text-align: center;
 }
-/* .container p{
-  font-size: 24px;
-} */
-body{
-  /* display: inline-block; */
-  /* border: black 1px solid; */
-}
 .grey{
   color: #969696;
 }
@@ -123,30 +114,30 @@ footer{
 /* positioning of the sign-up box in the sign-up section*/
 .email-box{
   display:inline-block;
-  margin: 1.5rem auto;
+   margin: 1.5rem 0px;
 }
 form{
   display:flex;
-  justify-content: space-between;
   font-size: 10px;
   align-items: center;
-  width: 400px;
   height: 41px;
-  padding: 0 5px 0 30px;
-  border-radius: 18px;
+  padding-left: 20px;
+  padding-right: 5px;
+  border-radius: 20px;
   background: white;
 }
 input[type=email]{
   border: none;
+  width: 70%;
 }
 input[type=submit]{
   color: white;
-  width: 25%;
+  width: 40%;
   height: 35px;
   border: none;
-  /* padding: 2px 0px; */
+  text-align: center;
   background: #e2574c;
-  border-radius: 16px;
+  border-radius: 18px;
 }
 /* positioning of left footer */
 .extra-info{
