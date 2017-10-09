@@ -237,6 +237,26 @@ footer ul{
    .social-media p {
     display: inline;
   }
+  /* changing layout of categories */
+  .mens-category{
+    flex-basis: 48%;
+  }
+  .trends-category{
+    flex-basis: 23%;
+  }
+  .glasses-category{
+    flex-basis: 23%;
+  }
+  .sale-category{
+    flex-basis: 23%;
+  }
+  .bags-category{
+    flex-basis:23%;
+  }
+  .womens-category{
+    flex-basis: 48%;
+  }
+
   footer{
     display: flex;
     justify-content: space-between;
