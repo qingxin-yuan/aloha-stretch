@@ -1,5 +1,5 @@
 *{
-  font-size: 16px;
+  font-size: 14px;
 }
 body{
   width: 100%;
@@ -22,7 +22,6 @@ nav ul{
   text-align: center;
   width: 100%;
   align-self: center;
-  margin: 0;
   padding: 10px 0;
 }
 .logo{
@@ -41,8 +40,8 @@ header{
   min-width: 100%;
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/banner-girl.png'),url('images/flower-bkgd.jpg');
   background-repeat: no-repeat, no-repeat,repeat;
-  background-size: contain,contain,cover;
-  background-position: center,center 2em, center;
+  background-size: contain,contain,contain;
+  background-position: center,center 5em, center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,29 +56,29 @@ p{
   padding: 5px;
 }
 h2{
-  font-size: 2rem;
-  font-style:italic;
-  margin: 1.5rem auto;
+  font-size: 3rem;
 }
 h3{
+  font-size: 2rem;
+}
+h4{
   font-size: 1.5rem;
 }
-h2,h3,.second {
+h2,h3{
   font-family: 'Playfair Display', sans-serif;
+  margin: 1.5rem auto;
 }
-.first{
+.collection{
   text-transform: uppercase;
-  color: white;
 }
-.second{
+.white{
   color: white;
-}
-.container h2{
-  display: inline-block;
 }
 .container{
   max-width :1240px;
-  margin: 0 auto;
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px 0;
   text-align: center;
 }
 .grey{
@@ -88,6 +87,9 @@ h2,h3,.second {
 .orange{
   color: #e2574c;
 }
+.italic{
+  font-style: italic;
+}
 .bold{
   font-weight: bold;
 }
@@ -95,7 +97,7 @@ h2,h3,.second {
 .categories ul{
   display:flex;
   flex-wrap: wrap;
-  color: white;
+  /* color: white; */
   align-items: center;
   margin: 0 -1%;
 }
@@ -149,9 +151,9 @@ h2,h3,.second {
   background-repeat: no-repeat;
   background-position: left bottom;
 }
-.sign-up h2,.sign-up p,footer p{
+/* .sign-up h2,.sign-up p,footer p{
   color:white;
-}
+} */
 .orange li{
   text-transform: uppercase;
   display:inline-block;
@@ -191,7 +193,7 @@ input[type=submit]:hover{
 footer{
   height: 20%;
   background-color:black; 
-  color: white;
+  /* color: white; */
   display: block;
   margin-top: 5px;
   padding: 30px;
@@ -200,9 +202,9 @@ footer{
 .extra-info{
   padding: 20px;
 }
-.extra-info p a{
+/* .extra-info p a{
   color: white;
-}
+} */
 .extra-info p a:hover{
   color: blue;
 }
@@ -220,6 +222,10 @@ footer ul{
 
 /* tablet version */
 @media screen and (min-width: 600px){
+  /* base font size change for tablet version */
+  *{
+    font-size: 16px;
+  }
   /* changing nav layout */
   nav{
     flex-wrap: nowrap;
@@ -256,7 +262,6 @@ footer ul{
   .womens-category{
     flex-basis: 48%;
   }
-
   footer{
     display: flex;
     justify-content: space-between;
