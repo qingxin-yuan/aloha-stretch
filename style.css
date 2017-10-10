@@ -39,7 +39,7 @@ header{
   height: 500px;
   max-width: 100%;
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/banner-girl.png'),url('images/flower-bkgd.jpg');
-  background-repeat: no-repeat, no-repeat,repeat;
+  background-repeat: no-repeat, no-repeat,repeat-x;
   background-size: contain,contain,cover;
   background-position: center,center 5em, center;
   display: flex;
@@ -75,8 +75,8 @@ h2,h3{
   color: white;
 }
 .container{
-  max-width :1240px;
-  width: 100%;
+  /* max-width :1240px; */
+  width: 600px;
   margin: 20px auto;
   padding: 20px 0;
   text-align: center;
@@ -97,7 +97,6 @@ h2,h3{
 .categories ul{
   display:flex;
   flex-wrap: wrap;
-  /* color: white; */
   align-items: center;
   margin: 0 -1%;
 }
@@ -108,41 +107,41 @@ h2,h3{
   height: 50vmin;
   background-size: cover;
   text-transform: uppercase;
-  margin: 1%;
+  margin: 0.5%;
   background-position: center;
 }
 .mens-category{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/mens-category.jpg');
   /* width: 100%; */
-  flex-basis:98%;
+  flex-basis:99%;
   /* background-size: 98% auto; */
 }
 .trends-category{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/trends-category.jpg');
   /* width: 50%; */
   /* height: 150px; */
-  flex-basis:48%;
+  flex-basis:49%;
 }
 .glasses-category{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/glasses-category.jpg');
   /* width: 50%; */
-  flex-basis:48%;
+  flex-basis:49%;
 }
 .sale-category{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/sale-category.jpg');
   /* width: 50%; */
-  flex-basis: 48%;
+  flex-basis: 49%;
 }
 .bags-category{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/bags-category.jpg');
   /* width: 50%;
    */
-   flex-basis: 48%;
+   flex-basis: 49%;
 }
 .womens-category{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/womens-category.jpg');
   /* width: 100%; */
-  flex-basis: 98%;
+  flex-basis: 99%;
 }
 /* sign-up section styling */
 .sign-up{
@@ -190,7 +189,6 @@ input[type=submit]:hover{
 footer{
   height: 20%;
   background-color:black; 
-  /* color: white; */
   display: block;
   margin-top: 5px;
   padding: 30px;
@@ -239,22 +237,22 @@ footer ul{
   }
   /* changing layout of categories */
   .mens-category{
-    flex-basis: 48%;
+    flex-basis: 49%;
   }
   .trends-category{
-    flex-basis: 23%;
+    flex-basis: 24%;
   }
   .glasses-category{
-    flex-basis: 23%;
+    flex-basis: 24%;
   }
   .sale-category{
-    flex-basis: 23%;
+    flex-basis: 24%;
   }
   .bags-category{
-    flex-basis:23%;
+    flex-basis: 24%;
   }
   .womens-category{
-    flex-basis: 48%;
+    flex-basis: 49%;
   }
   footer{
     display: flex;
@@ -283,5 +281,7 @@ footer ul{
 
 /* desktop version */
 @media screen and (min-width: 1240px){
- 
+  header{
+    background-size: contain, contain, contain;
+  }
 } 
