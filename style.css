@@ -37,10 +37,10 @@ nav ul{
 /* header (banner girl) styling */
 header{
   height: 500px;
-  min-width: 100%;
+  max-width: 100%;
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/banner-girl.png'),url('images/flower-bkgd.jpg');
   background-repeat: no-repeat, no-repeat,repeat;
-  background-size: contain,contain,contain;
+  background-size: contain,contain,cover;
   background-position: center,center 5em, center;
   display: flex;
   flex-direction: column;
@@ -76,7 +76,7 @@ h2,h3{
 }
 .container{
   max-width :1240px;
-  width: 600px;
+  width: 100%;
   margin: 20px auto;
   padding: 20px 0;
   text-align: center;
@@ -151,9 +151,6 @@ h2,h3{
   background-repeat: no-repeat;
   background-position: left bottom;
 }
-/* .sign-up h2,.sign-up p,footer p{
-  color:white;
-} */
 .orange li{
   text-transform: uppercase;
   display:inline-block;
@@ -202,9 +199,6 @@ footer{
 .extra-info{
   padding: 20px;
 }
-/* .extra-info p a{
-  color: white;
-} */
 .extra-info p a:hover{
   color: blue;
 }
