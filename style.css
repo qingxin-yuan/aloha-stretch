@@ -3,8 +3,6 @@
 }
 body{
   width: 100%;
-}
-section .container{
   color: #2d2d2d;
 }
 /* styling navigation bar */
@@ -14,7 +12,7 @@ nav{
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 10px;
+  margin: 20px 5%;
 }
 nav ul{
   border-top: 0.2px solid #d7d7d7;
@@ -26,11 +24,11 @@ nav ul{
 }
 .logo{
   height: 5%;
-  width: 20%;
+  width: 12%;
   padding: 5px;
 }
 .cart-icon{
-  width: 5%;
+  width: 4%;
   height: 5%;
   padding: 5px 5px 5px 15%;
 }
@@ -56,13 +54,13 @@ p{
   padding: 5px;
 }
 h2{
-  font-size: 3rem;
-}
-h3{
   font-size: 2rem;
 }
+h3{
+  font-size: 1.7rem;
+}
 h4{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 h2,h3{
   font-family: 'Playfair Display', sans-serif;
@@ -74,18 +72,17 @@ h2,h3{
 .white{
   color: white;
 }
-.container{
-  /* max-width :1240px; */
-  width: 600px;
-  margin: 20px auto;
-  padding: 20px 0;
-  text-align: center;
-}
 .grey{
   color: #969696;
 }
 .orange{
   color: #e2574c;
+}
+.container{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 5% 2%;
+  text-align: center;
 }
 .italic{
   font-style: italic;
@@ -112,35 +109,26 @@ h2,h3{
 }
 .mens-category{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/mens-category.jpg');
-  /* width: 100%; */
   flex-basis:99%;
-  /* background-size: 98% auto; */
-}
+  }
 .trends-category{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/trends-category.jpg');
-  /* width: 50%; */
-  /* height: 150px; */
   flex-basis:49%;
 }
 .glasses-category{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/glasses-category.jpg');
-  /* width: 50%; */
   flex-basis:49%;
 }
 .sale-category{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/sale-category.jpg');
-  /* width: 50%; */
   flex-basis: 49%;
 }
 .bags-category{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/bags-category.jpg');
-  /* width: 50%;
-   */
    flex-basis: 49%;
 }
 .womens-category{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/womens-category.jpg');
-  /* width: 100%; */
   flex-basis: 99%;
 }
 /* sign-up section styling */
@@ -188,7 +176,7 @@ input[type=submit]:hover{
 /* footer styling */
 footer{
   height: 20%;
-  background-color:black; 
+  background-color:#242424; 
   display: block;
   margin-top: 5px;
   padding: 30px;
@@ -198,7 +186,7 @@ footer{
   padding: 20px;
 }
 .extra-info p a:hover{
-  color: blue;
+  color: #b64036;
 }
 /* hiding the social media texts in mobile version */
 .social-media p {
@@ -223,12 +211,24 @@ footer ul{
     flex-wrap: nowrap;
   }
   nav ul{
-    border:none;
+    border: none;
     order: -1;
     width: 75%;
   }
   nav .logo{
     order: -2;
+  }
+  .container{
+    max-width: 600px;
+  }
+  h2{
+    font-size: 3rem;
+  }
+  h3{
+    font-size: 2rem;
+  }
+  h4{
+    font-size: 1.5rem;
   }
   /* changing footer layout */
   /* display social media texts in tablet & desktop version */
@@ -269,16 +269,14 @@ footer ul{
     flex-direction: column;
     margin-right: 10px;
   }
+  .social-media ul li i{
+    min-width: 30px;
+  }
   /* overwrite the p styling of left footer */
   .extra-info p{ 
     text-align: left;
   }
-  /* making icons and names of social media on the same row */
-  .social-media ul li i, ul li p{
-    display: inline;
-  }
 }
-
 /* desktop version */
 @media screen and (min-width: 1240px){
   header{
