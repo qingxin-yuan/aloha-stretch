@@ -10,11 +10,22 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body> 
-  <nav>
+  <nav class="main-nav">
     <img src="./images/aloha-logo.svg" alt="aloha logo" class="logo">
     <img src="./images/cart-icon.svg" alt="cart icon" class="cart-icon">
-    <ul class="orange">
-      <li>about</li><li>shop</li><li>featured</li><li>updates</li>
+    <ul>
+      <li>
+        <a class="main-nav__link" href="#about">about</a>
+      </li>
+      <li>
+        <a class="main-nav__link" href="#shop">shop</a>
+      </li>
+      <li>
+        <a class="main-nav__link" href="#featured">featured</a>
+      </li>
+      <li>
+        <a class="main-nav__link" href="#updates">updates</a>
+      </li>
     </ul>
   </nav> 
 
@@ -25,35 +36,35 @@
     </div>
   </header>  
 
-  <section class="container">
+  <section class="container" id="about">
     <h3><span class="italic">Hand-Crafted </span><span class="bold">Styles</span></h3>
     <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
   </section>
 
-  <section class="categories">
+  <section class="categories" id="shop">
     <ul class="white">
       <li class="mens-category">
-        <p>men's</p>
+        <p><a href="#">men's</a></p>
       </li>
       <li class="trends-category">
-        <p>trends</p>
+        <p><a href="#">trends</a></p>
       </li>
       <li class="glasses-category"> 
-        <p>glasses</p>
+        <p><a href="#">glasses</a></p>
       </li>
       <li class="sale-category">
-        <p>sale</p>
+        <p><a href="#">sale</a></p>
       </li>
       <li class="bags-category">
-        <p>bags</p>
+        <p><a href="#">bags</a></p>
       </li>
       <li class="womens-category">
-        <p>women's</p>
+        <p><a href="#">women's</a></p>
       </li>
     </ul>
   </section>
 
-  <section class="products">
+  <section class="products" id="featured">
     <h3><span class="italic">Most-Loved </span><span class="bold">Products</span></h3>
     <ul>
         <li>
@@ -83,7 +94,7 @@
     </ul>
   </section>
 
-  <section class="sign-up">
+  <section class="sign-up" id="updates">
     <div class="container">
       <h3 class="white"><span class="italic">Sign-Up for </span><span class="bold">Updates</span></h3>
       <p class="white">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
