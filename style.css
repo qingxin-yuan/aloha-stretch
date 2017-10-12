@@ -46,7 +46,7 @@ nav li{
 .cart-icon{
   width: 4%;
   height: 5%;
-  padding: 0% 4%;
+  padding: 0% 0% 0% 7%;
 }
 /* header (banner girl) styling */
 header{
@@ -146,6 +146,13 @@ h2,h3{
 .womens-category{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/womens-category.jpg');
   flex-basis: 99%;
+}
+/* products section styling */
+.products {
+  text-align: center;
+}
+.products p{
+  text-transform: uppercase;
 }
 /* sign-up section styling */
 .sign-up{
