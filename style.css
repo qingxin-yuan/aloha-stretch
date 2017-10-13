@@ -1,3 +1,4 @@
+/* gereral texts styling */
 *{
   font-size: 14px;
 }
@@ -13,63 +14,6 @@ a{
 a:hover{
   color: #e2574c;
 }
-.category-name{
-  font-size: 2rem;
-  font-weight: 500;
-}
-/* styling navigation bar */
-nav{
-  font-family: "Raleway", sans-serif;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 20px 5%;
-}
-nav ul{
-  border-top: 0.2px solid #d7d7d7;
-  font-size: 1rem;
-  text-align: center;
-  margin: 2% auto;
-  width: 100%;
-  padding: 10px 0;
-}
-nav li{
-  text-transform: uppercase;
-  display:inline-block;
-  padding: 0 2%;
-}
-.main-nav .main-nav__link  {
-  color:#e2574c;
-}
-.logo{
-  height: 5%;
-  width: 12%;
-  padding: 5px;
-}
-.cart-icon{
-  width: 4%;
-  height: 5%;
-  padding: 0% 0% 0% 7%;
-}
-/* header (banner girl) styling */
-header{
-  height: 500px;
-  max-width: 100%;
-  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/banner-girl.png'),url('images/flower-bkgd.jpg');
-  background-repeat: no-repeat, no-repeat,repeat-x;
-  background-size: contain,contain,cover;
-  background-position: center,center 5em, center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.collection{
-  font-weight: 500;
-  font-size: 1.2rem;
-}
-/* gereral texts styling */
 p{
   font-size: 1rem;
   font-family: 'Raleway', sans-serif;
@@ -115,6 +59,65 @@ h2,h3{
 .bold{
   font-weight: bold;
 }
+.category-name{
+  font-size: 2rem;
+  font-weight: 500;
+}
+/* end -- general styling */
+/* styling navigation bar */
+nav{
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 5%;
+}
+nav ul{
+  border-top: 0.2px solid #d7d7d7;
+  font-size: 1rem;
+  text-align: center;
+  margin: 2% auto;
+  width: 100%;
+  padding: 10px 0;
+}
+nav li{
+  text-transform: uppercase;
+  display:inline-block;
+  padding: 0 2%;
+}
+.main-nav .main-nav__link  {
+  color:#e2574c;
+}
+.logo{
+  height: 5%;
+  width: 12%;
+  padding: 5px;
+}
+.cart-icon{
+  width: 4%;
+  height: 5%;
+  padding: 0% 0% 0% 7%;
+}
+/* end--nav bar styling */
+/* header (banner girl) styling */
+header{
+  height: 500px;
+  max-width: 100%;
+  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/banner-girl.png'),url('images/flower-bkgd.jpg');
+  background-repeat: no-repeat, no-repeat,repeat-x;
+  background-size: contain,contain,cover;
+  background-position: center,center 5em, center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.collection{
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+/* end--heaer styling */
 /* category section styling */
 .categories ul{
   display:flex;
@@ -156,14 +159,23 @@ h2,h3{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/womens-category.jpg');
   flex-basis: 99%;
 }
+/* end--category styling */
 /* products section styling */
 .products {
   text-align: center;
+  margin: 2.5rem 0;
 }
 .products p{
   text-transform: uppercase;
   font-weight: 500;
 }
+.carousel-cell{
+  padding: 0.5%;
+}
+.main-carousel{
+  margin: 50px 0;
+}
+/* end--products section */
 /* sign-up section styling */
 .sign-up{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/wave-bkgd.jpg');
@@ -202,6 +214,7 @@ input[type=submit]{
 input[type=submit]:hover{
   opacity: 0.7;
 }
+/* end--sign-up section */
 /* footer styling */
 footer{
   height: 20%;
@@ -228,6 +241,7 @@ footer ul{
   display: flex;
   justify-content: center;
 }
+/* end--footer */
 
 /* tablet version */
 @media screen and (min-width: 600px){
@@ -264,7 +278,7 @@ footer ul{
    .social-media p {
     display: inline;
   }
-  /* changing layout of categories */
+  /* changing layout of category */
   .mens-category{
     flex-basis: 49%;
   }
