@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+ 
 </head>
 <body> 
   <nav class="main-nav">
@@ -44,78 +46,78 @@
   <section class="categories" id="shop">
     <ul class="white">
       <li class="mens-category">
-        <p><a href="#">men's</a></p>
+        <p><a href="#" class="category-name">men's</a></p>
       </li>
       <li class="trends-category">
-        <p><a href="#">trends</a></p>
+        <p><a href="#" class="category-name">trends</a></p>
       </li>
       <li class="glasses-category"> 
-        <p><a href="#">glasses</a></p>
+        <p><a href="#" class="category-name">glasses</a></p>
       </li>
       <li class="sale-category">
-        <p><a href="#">sale</a></p>
+        <p><a href="#" class="category-name">sale</a></p>
       </li>
       <li class="bags-category">
-        <p><a href="#">bags</a></p>
+        <p><a href="#" class="category-name">bags</a></p>
       </li>
       <li class="womens-category">
-        <p><a href="#">women's</a></p>
+        <p><a href="#" class="category-name">women's</a></p>
       </li>
     </ul>
   </section>
 
   <section class="products" id="featured">
     <h3><span class="italic">Most-Loved </span><span class="bold">Products</span></h3>
-    <ul>
-        <li>
-          <img src="images/stretch-knit-dress.jpg" alt="stretch knit dress">
-          <p class="grey">dresses</p>
-          <h4 class="orange">Stretch Knit Dress</h4>
-          <p class="grey">$169.00</p>
-        </li>
-        <li>
-          <img src="images/cotton-blue-shirt.jpg" alt="cotton blue shirt">
-          <p class="grey">shirts</p>
-          <h4 class="orange">Cotton Blue Shirt</h4>
-          <p class="grey">$89.00</p>
-        </li>
-        <li>
-          <img src = "images/checked-stretch-dress.jpg" alt="checked stretch dress">
-          <p class="grey">dresses</p>
-          <h4 class="orange">Checked Stretch Dress</h4>
-          <p class="grey">$129.00</p>
-        </li>
-        <li>
-          <img src="images/blue-hipster-backpack.jpg" alt="blue hipster backpack">
-          <p class="grey">bags</p>
-          <h4 class="orange">Blue Hipster Backpack</h4>
-          <p class="grey">$69.00</p>
-        </li>
-        <li>
-          <img src="images/denim-overall-shortrs.jpg" alt="denim overall shorts">
-          <p class="grey">denim</p>
-          <h4 class="orange">Denim Overall Shorts</h4>
-          <p class="grey">$89.00</p>
-        </li>
-        <li>
-          <img src="images/pink-dotted-dress.jpg" alt="pink dotted dress">
-          <p class="grey">dresses</p>
-          <h4 class="orange">Pink Dotted Dress</h4>
-          <p class="grey">$99.00</p>
-        </li>
-        <li>
-          <img src="images/blue-silk-dress.jpg" alt="blue silk dress">
-          <p class="grey">dresses</p>
-          <h4 class="orange">Blue Silk Dress</h4>
-          <p class="grey">$109.00</p>
-        </li>
-        <li>
-          <img src="images/cotton-yellow-tshirt.jpg" alt="cotton yellow tshirt">
-          <p class="grey">shirts</p>
-          <h4 class="orange">Cotton Yellow T-shirt</h4>
-          <p class="grey">$29.00</p>
-        </li>
-    </ul>
+    <div class="main-carousel"> 
+      <div class="carousel-cell">
+        <img src="images/stretch-knit-dress.jpg" alt="stretch knit dress">
+        <p class="grey">dresses</p>
+        <h4 class="orange">Stretch Knit Dress</h4>
+        <p class="grey">$169.00</p>
+      </div>
+      <div class="carousel-cell">
+        <img src="images/cotton-blue-shirt.jpg" alt="cotton blue shirt">
+        <p class="grey">shirts</p>
+        <h4 class="orange">Cotton Blue Shirt</h4>
+        <p class="grey">$89.00</p>
+      </div>
+      <div class="carousel-cell">
+        <img src = "images/checked-stretch-dress.jpg" alt="checked stretch dress">
+        <p class="grey">dresses</p>
+        <h4 class="orange">Checked Stretch Dress</h4>
+        <p class="grey">$129.00</p>
+      </div>
+      <div class="carousel-cell">
+        <img src="images/blue-hipster-backpack.jpg" alt="blue hipster backpack">
+        <p class="grey">bags</p>
+        <h4 class="orange">Blue Hipster Backpack</h4>
+        <p class="grey">$69.00</p>
+      </div>
+      <div class="carousel-cell">
+        <img src="images/denim-overall-shorts.jpg" alt="denim overall shorts">
+        <p class="grey">denim</p>
+        <h4 class="orange">Denim Overall Shorts</h4>
+        <p class="grey">$89.00</p>
+      </div>
+      <div class="carousel-cell">
+        <img src="images/pink-dotted-dress.jpg" alt="pink dotted dress">
+        <p class="grey">dresses</p>
+        <h4 class="orange">Pink Dotted Dress</h4>
+        <p class="grey">$99.00</p>
+      </div>
+      <div class="carousel-cell">
+        <img src="images/blue-silk-dress.jpg" alt="blue silk dress">
+        <p class="grey">dresses</p>
+        <h4 class="orange">Blue Silk Dress</h4>
+        <p class="grey">$109.00</p>
+      </div>
+      <div class="carousel-cell">
+        <img src="images/cotton-yellow-tshirt.jpg" alt="cotton yellow tshirt">
+        <p class="grey">shirts</p>
+        <h4 class="orange">Cotton Yellow T-shirt</h4>
+        <p class="grey">$29.00</p>
+      </div>
+    </div>
   </section>
 
   <section class="sign-up" id="updates">
@@ -124,7 +126,7 @@
       <p class="white">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
       <div class="email-box">
         <form action="submit.php" method="post">
-            <input type="email" name="email-address" placeholder="Your Email">
+            <input type="email" name="email-address" placeholder="Your Email" class="grey">
             <input type="submit" name="submit" value="Subscribe">
         </form>
       </div>
@@ -157,5 +159,12 @@
       </ul>
     </section>
   </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="script.js"></script>
+
 </body>
 </html>

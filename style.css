@@ -13,6 +13,10 @@ a{
 a:hover{
   color: #e2574c;
 }
+.category-name{
+  font-size: 2rem;
+  font-weight: 500;
+}
 /* styling navigation bar */
 nav{
   font-family: "Raleway", sans-serif;
@@ -61,10 +65,15 @@ header{
   align-items: center;
   justify-content: center;
 }
+.collection{
+  font-weight: 500;
+  font-size: 1.2rem;
+}
 /* gereral texts styling */
 p{
   font-size: 1rem;
   font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   line-height: 2;
   text-align: center;
   padding: 5px;
@@ -153,6 +162,7 @@ h2,h3{
 }
 .products p{
   text-transform: uppercase;
+  font-weight: 500;
 }
 /* sign-up section styling */
 .sign-up{
@@ -178,6 +188,7 @@ form{
 input[type=email]{
   border: none;
   width: 70%;
+  font-weight: 300;
 }
 input[type=submit]{
   color: white;
