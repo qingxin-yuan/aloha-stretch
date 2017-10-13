@@ -4,7 +4,7 @@ $(function() {
     // options
     cellAlign: 'left',
     contain: true,
-    // autoPlay: 1500,
+    autoPlay: 1500,
     wrapAround: true
   });
 
