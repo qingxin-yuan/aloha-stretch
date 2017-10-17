@@ -1,10 +1,10 @@
 $(function() {
-  //flickity init
+  //flickity setup
   $('.main-carousel').flickity({
     // options
     cellAlign: 'left',
     contain: true,
-    autoPlay: 1500,
+    // autoPlay: 1500,
     wrapAround: true
   });
 
@@ -46,12 +46,12 @@ $(function() {
         }
       }
     });
-
+    //email validation
   $('.email-form').on('click', '.button',function(event){
       event.preventDefault();
 
       var emailAddress = $('.email-address').val();
-      var filter =/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+      var filter =/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/ ;
       var validation = filter.test(emailAddress);
       if (validation){
         alert('Thanks for subscribing!');
@@ -60,6 +60,12 @@ $(function() {
           alert('Please enter a valid email address');
       }
   });
-  // console.log('hello');
 
+
+  var count = 0;
+  $('.addItem').on('click',function(event){
+    event.preventDefault();
+    count++;
+    $('.itemCount').html(count).css('display','block');
+  })
 });

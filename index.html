@@ -17,25 +17,29 @@
  
 </head>
 <body> 
-  <nav class="main-nav" id="top">
-    <img src="./images/aloha-logo.svg" alt="aloha logo" class="logo">
-    <img src="./images/cart-icon.svg" alt="cart icon" class="cart-icon">
-    <ul>
-      <li>
-        <a class="main-nav__link" href="#about">about</a>
-      </li>
-      <li>
-        <a class="main-nav__link" href="#shop">shop</a>
-      </li>
-      <li>
-        <a class="main-nav__link" href="#featured">featured</a>
-      </li>
-      <li>
-        <a class="main-nav__link" href="#updates">updates</a>
-      </li>
-    </ul>
-  </nav> 
-
+  <div class="main-nav">
+    <nav id="top">
+      <img src="./images/aloha-logo.svg" alt="aloha logo" class="logo">
+      <div class="cart-container">
+        <img src="./images/cart-icon.svg" alt="cart icon" class="cart-icon">
+        <span class="itemCount"></span>
+      </div>
+      <ul>
+        <li>
+          <a class="main-nav__link" href="#about">about</a>
+        </li>
+        <li>
+          <a class="main-nav__link" href="#shop">shop</a>
+        </li>
+        <li>
+          <a class="main-nav__link" href="#featured">featured</a>
+        </li>
+        <li>
+          <a class="main-nav__link" href="#updates">updates</a>
+        </li>
+      </ul>
+    </nav> 
+  </div>
   <header>
     <div class="container">
       <p class="collection white">new collection</p>
@@ -79,48 +83,56 @@
         <p class="grey">dresses</p>
         <h4 class="orange">Stretch Knit Dress</h4>
         <p class="grey">$169.00</p>
+        <button class="addItem">Add to Cart</button>
       </li>
       <li class="carousel-cell">
         <img src="images/cotton-blue-shirt.jpg" alt="cotton blue shirt">
         <p class="grey">shirts</p>
         <h4 class="orange">Cotton Blue Shirt</h4>
         <p class="grey">$89.00</p>
+        <button class="addItem">Add to Cart</button>
       </li>
       <li class="carousel-cell">
         <img src = "images/checked-stretch-dress.jpg" alt="checked stretch dress">
         <p class="grey">dresses</p>
         <h4 class="orange">Checked Stretch Dress</h4>
         <p class="grey">$129.00</p>
+        <button class="addItem">Add to Cart</button>
       </li>
       <li class="carousel-cell">
         <img src="images/blue-hipster-backpack.jpg" alt="blue hipster backpack">
         <p class="grey">bags</p>
         <h4 class="orange">Blue Hipster Backpack</h4>
         <p class="grey">$69.00</p>
+        <button class="addItem">Add to Cart</button>
       </li>
       <li class="carousel-cell">
         <img src="images/denim-overall-shorts.jpg" alt="denim overall shorts">
         <p class="grey">denim</p>
         <h4 class="orange">Denim Overall Shorts</h4>
         <p class="grey">$89.00</p>
+        <button class="addItem">Add to Cart</button>
       </li>
       <li class="carousel-cell">
         <img src="images/pink-dotted-dress.jpg" alt="pink dotted dress">
         <p class="grey">dresses</p>
         <h4 class="orange">Pink Dotted Dress</h4>
         <p class="grey">$99.00</p>
+        <button class="addItem">Add to Cart</button>
       </li>
       <li class="carousel-cell">
         <img src="images/blue-silk-dress.jpg" alt="blue silk dress">
         <p class="grey">dresses</p>
         <h4 class="orange">Blue Silk Dress</h4>
         <p class="grey">$109.00</p>
+        <button class="addItem">Add to Cart</button>
       </li>
       <li class="carousel-cell">
         <img src="images/cotton-yellow-tshirt.jpg" alt="cotton yellow tshirt">
         <p class="grey">shirts</p>
         <h4 class="orange">Cotton Yellow T-shirt</h4>
         <p class="grey">$29.00</p>
+        <button class="addItem">Add to Cart</button>
       </li>
     </ul>
   </section>
@@ -130,9 +142,9 @@
       <h3 class="white"><span class="italic">Sign-Up for </span><span class="bold">Updates</span></h3>
       <p class="white">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
       <div class="email-box">
-        <!-- <form action="submit.php" method="post" class="email-form"> --><form method="post" class="email-form"> 
-            <input type="email" name="email-address" placeholder="Your Email" class="grey email-address">
-            <input type="submit" name="submit" value="Subscribe" class="button">
+        <form action="submit.php" method="post" class="email-form">
+          <input type="email" name="email-address" placeholder="Your Email" class="grey email-address">
+          <input type="submit" name="submit" value="Subscribe" class="button">
         </form>
       </div>
     </div>
