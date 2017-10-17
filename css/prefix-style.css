@@ -1,6 +1,7 @@
 /* gereral texts styling */
 *{
   font-size: 14px;
+  box-sizing: border-box;
 }
 body{
   /* position: relative; */
@@ -139,9 +140,9 @@ nav li{
 header{
   height: 500px;
   max-width: 100%;
-  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/banner-girl.png'),url('images/flower-bkgd.jpg');
-  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/banner-girl.png'),url('images/flower-bkgd.jpg');
-  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/banner-girl.png'),url('images/flower-bkgd.jpg');
+  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/banner-girl.png'),url('../images/flower-bkgd.jpg');
+  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/banner-girl.png'),url('../images/flower-bkgd.jpg');
+  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/banner-girl.png'),url('../images/flower-bkgd.jpg');
   background-repeat: no-repeat, no-repeat,repeat-x;
   background-size: contain,contain,cover;
   background-position: center,center 5em, center;
@@ -193,44 +194,44 @@ header{
   background-position: center;
 }
 .mens-category{
-  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/mens-category.jpg');
-  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/mens-category.jpg');
-  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/mens-category.jpg');
+  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/mens-category.jpg');
+  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/mens-category.jpg');
+  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/mens-category.jpg');
   -ms-flex-preferred-size:99%;
       flex-basis:99%;
   }
 .trends-category{
-  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/trends-category.jpg');
-  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/trends-category.jpg');
-  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/trends-category.jpg');
+  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/trends-category.jpg');
+  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/trends-category.jpg');
+  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/trends-category.jpg');
   -ms-flex-preferred-size:49%;
       flex-basis:49%;
 }
 .glasses-category{
-  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/glasses-category.jpg');
-  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/glasses-category.jpg');
-  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/glasses-category.jpg');
+  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/glasses-category.jpg');
+  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/glasses-category.jpg');
+  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/glasses-category.jpg');
   -ms-flex-preferred-size:49%;
       flex-basis:49%;
 }
 .sale-category{
-  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/sale-category.jpg');
-  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/sale-category.jpg');
-  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/sale-category.jpg');
+  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/sale-category.jpg');
+  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/sale-category.jpg');
+  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/sale-category.jpg');
   -ms-flex-preferred-size: 49%;
       flex-basis: 49%;
 }
 .bags-category{
-  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/bags-category.jpg');
-  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/bags-category.jpg');
-  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/bags-category.jpg');
+  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/bags-category.jpg');
+  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/bags-category.jpg');
+  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/bags-category.jpg');
    -ms-flex-preferred-size: 49%;
        flex-basis: 49%;
 }
 .womens-category{
-  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/womens-category.jpg');
-  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/womens-category.jpg');
-  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/womens-category.jpg');
+  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/womens-category.jpg');
+  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/womens-category.jpg');
+  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/womens-category.jpg');
   -ms-flex-preferred-size: 99%;
       flex-basis: 99%;
 }
@@ -264,9 +265,9 @@ button{
 /* end--products section */
 /* sign-up section styling */
 .sign-up{
-  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/wave-bkgd.jpg');
-  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/wave-bkgd.jpg');
-  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('images/wave-bkgd.jpg');
+  background: -webkit-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/wave-bkgd.jpg');
+  background: -o-linear-gradient(60deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/wave-bkgd.jpg');
+  background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/wave-bkgd.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left bottom;
