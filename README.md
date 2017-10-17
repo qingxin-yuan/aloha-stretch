@@ -12,7 +12,7 @@ Front-end shopping website of Aloha Apparel, styled using HTML & CSS, animated v
 * Cart items updating algorithm implemented using jQuery
 ## Author
 **Qingxin Yuan**
-##Acknowledgement
+## Acknowledgement
 * Special thanks Chris Coyier for posting smooth scrolling codes on CSS Tricks and Flickity for sharing the carousel plugin
 * Special thanks Rose and Jim for tips and advice
 * Thanks for RED academy for the demo prep
