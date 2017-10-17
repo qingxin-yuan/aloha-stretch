@@ -42,11 +42,11 @@ h2,h3{
 .white{
   color: white;
 }
-.grey{
-  color: #969696;
-}
-.orange{
+.main-color{
   color: #e2574c;
+}
+.secondary-color{
+  color: #969696;
 }
 .container{
   max-width: 1240px;
@@ -124,7 +124,7 @@ nav li{
 .itemCount{
   display: none;
   color:white;
-  background-color: red;
+  background-color: #e2574c;
   position: absolute;
   right: 50%;
   top: 50%;
