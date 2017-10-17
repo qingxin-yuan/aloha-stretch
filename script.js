@@ -51,7 +51,11 @@ $(function() {
       event.preventDefault();
 
       var emailAddress = $('.email-address').val();
+<<<<<<< HEAD
       var filter =/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/ ;
+=======
+      var filter =/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+>>>>>>> 0cf52b4d2c25779e326d954792e8f526aac47e3a
       var validation = filter.test(emailAddress);
       if (validation){
         alert('Thanks for subscribing!');
