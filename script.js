@@ -46,6 +46,7 @@ $(function() {
         }
       }
     });
+
     //email validation
   $('.email-form').on('click', '.button',function(event){
       event.preventDefault();
@@ -63,7 +64,7 @@ $(function() {
       }
   });
 
-
+  //cart items counting algorithm
   var count = 0;
   $('.addItem').on('click',function(event){
     event.preventDefault();
