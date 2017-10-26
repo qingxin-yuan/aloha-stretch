@@ -71,4 +71,8 @@ $(function() {
     count++;
     $('.itemCount').html(count).css('display','block');
   })
+// Fix "Skip Link" Focus in Webkit
+  $("a[href^='#']").not("a[href='#']").click(function() {
+    $("#"+$(this).attr("href").slice(1)+"").focus();
+ });
 });
