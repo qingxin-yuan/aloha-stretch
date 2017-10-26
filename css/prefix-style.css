@@ -342,6 +342,26 @@ footer ul{
 }
 /* end--footer */
 
+/* for a11y  */
+/* screen reader text only */
+.screen-reader-text {
+   clip: rect(1px, 1px, 1px, 1px);
+   position: absolute !important;
+   height: 1px;
+   width: 1px;
+   overflow: hidden;
+}
+/* hide screen reader text when focused */
+.screen-reader-text:focus {
+   clip: auto !important;
+   display: block;
+   height: auto;
+   left: 5px;
+   top: 5px;
+   width: auto;
+   z-index: 100000; /* above all content */
+}
+
 /* tablet version */
 @media screen and (min-width: 600px){
   /* base font size change for tablet version */
