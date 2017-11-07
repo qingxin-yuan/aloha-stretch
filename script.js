@@ -1,4 +1,5 @@
 $(function() {
+
   //flickity setup
   $('.main-carousel').flickity({
     // options
@@ -29,8 +30,9 @@ $(function() {
         if (target.length) {
           // Only prevent default if animation is actually gonna happen
           event.preventDefault();
+          
           $('html, body').animate({
-            scrollTop: target.offset().top
+            scrollTop: target.offset().top - $('#top').outerHeight()//subtracting nav bar height, from the top offset
           }, 1000, function() {
             // Callback after animation
             // Must change focus!
