@@ -41,13 +41,16 @@ $(function() {
             if ($target.is(":focus")) { // Checking if the target was focused
               return false;
             } else {
-              $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
               $target.focus(); // Set focus again
             };
           });
         }
       }
     });
+    // Fix "Skip Link" Focus in Webkit
+  $("a[href^='#']").not("a[href='#']").click(function() {
+    $("#"+$(this).attr("href").slice(1)+"").focus();
+ });
 
     //email validation
   $('.email-form').on('click', '.button',function(event){
@@ -73,8 +76,5 @@ $(function() {
     count++;
     $('.itemCount').html(count).css('display','block');
   })
-// Fix "Skip Link" Focus in Webkit
-  $("a[href^='#']").not("a[href='#']").click(function() {
-    $("#"+$(this).attr("href").slice(1)+"").focus();
- });
+
 });

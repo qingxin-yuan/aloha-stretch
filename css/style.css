@@ -1,5 +1,5 @@
 /* gereral texts styling */
-*{
+html{
   font-size: 14px;
   box-sizing: border-box;
 }
@@ -145,7 +145,7 @@ header{
   background: linear-gradient(30deg,rgba(100,100,100,0.4),rgba(100,100,100,0.4)),url('../images/banner-girl.png'),url('../images/flower-bkgd.jpg');
   background-repeat: no-repeat, no-repeat,repeat-x;
   background-size: contain,contain,cover;
-  background-position: center,center 5em, center;
+  background-position: center,center 10em, center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -391,7 +391,7 @@ footer ul{
 /* tablet version */
 @media screen and (min-width: 600px){
   /* base font size change for tablet version */
-  *{
+  html{
     font-size: 16px;
   }
   /* changing nav layout */
