@@ -82,15 +82,12 @@ nav{
           justify-content: space-between;
   width: 100%;
   background-color: white;
-  /* position: fixed;  */
   top: 0;
   left: 0;
   padding: 10px 0;
-}
-.main-nav{
-  position: relative;
-  /* height: 70px; */
-  z-index: 2;
+  height: 120px;
+  position: fixed;
+  z-index: 5;
 }
 nav ul{
   border-top: 0.2px solid #d7d7d7;
@@ -105,6 +102,7 @@ nav li{
   display:inline-block;
   padding: 0 2%;
 }
+
 .main-nav .main-nav__link  {
   color:#e2574c;
 }
@@ -139,6 +137,7 @@ nav li{
 /* header (banner girl) styling */
 header{
   height: 500px;
+  margin-top: 120px;
   max-width: 100%;
   background: -webkit-linear-gradient(60deg,rgba(60,60,60,0.3),rgba(60,60,60,0.3)),url('../images/banner-girl.png'),url('../images/flower-bkgd.jpg');
   background: -o-linear-gradient(60deg,rgba(60,60,60,0.3),rgba(60,60,60,0.3)),url('../images/banner-girl.png'),url('../images/flower-bkgd.jpg');
@@ -160,6 +159,9 @@ header{
       -ms-flex-pack: center;
           justify-content: center;
 }
+/* .header-after{
+  margin-top: 140px;
+} */
 header .container{
   height: 500px;
   display: flex;
