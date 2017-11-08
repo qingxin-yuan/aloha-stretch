@@ -71,10 +71,10 @@ $(function() {
 
   //cart items counting algorithm
   var count = 0;
-  $('.addItem').on('click',function(event){
+  $('.add-item').on('click',function(event){
     event.preventDefault();
     count++;
-    $('.itemCount').html(count).css('display','block');
+    $('.item-count').html(count).css('display','block');
   })
 
 });
