@@ -9,6 +9,9 @@ $(function() {
     wrapAround: true
   });
 
+  // $('#top').offset({bottom:$('header').offset.top});
+
+
   //smooth scrolling code from css tricks 
   //https://css-tricks.com/snippets/jquery/smooth-scrolling/
   // Select all links with hashes
