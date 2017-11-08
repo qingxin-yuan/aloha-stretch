@@ -11,7 +11,7 @@ Front-end shopping website of Aloha Apparel, styled using HTML & CSS, animated v
 * Smooth scroll feature added using [jQuery](https://jquery.com/) for internal links on the website
 * Cart items updating algorithm implemented using jQuery
 ## Screenshot
-![Alt text](/images/project-screenthot.png?raw=true "website screenshot")
+![Alt text](/images/project-screenshot.png?raw=true "website screenshot")
 
 ## Author
 **Qingxin Yuan**
