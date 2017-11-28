@@ -393,10 +393,6 @@ footer ul{
    width: auto;
    z-index: 100000; /* above all content */
 }
-/* hide the flickity prev/next button  */
-.flickity-prev-next-button {
-  display: none;
-}
 /* tablet version */
 @media screen and (min-width: 600px){
   /* base font size change for tablet version */

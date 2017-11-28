@@ -6,7 +6,9 @@ $(function() {
     cellAlign: 'left',
     contain: true,
     autoPlay: 1500,
-    wrapAround: true
+    wrapAround: true,
+    prevNextButtons: false,
+    pageDots: false
   });
 
   //smooth scrolling code from css tricks 
@@ -72,9 +74,12 @@ $(function() {
 
   //cart items counting algorithm
   var count = 0;
+
   $('.add-item').on('click',function(event){
     event.preventDefault();
+
     count++;
+    
     $('.cart-container span').html(count).css('display','block');
   })
 
