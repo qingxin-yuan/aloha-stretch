@@ -33,7 +33,7 @@ $(function() {
           event.preventDefault();
           
           $('html, body').animate({
-            scrollTop: target.offset().top - $('#top').outerHeight()//subtracting nav bar height, from the top offset
+            scrollTop: target.offset().top - $('nav').outerHeight()//subtracting nav bar height, from the top offset
           }, 1000, function() {
             // Callback after animation
             // Must change focus!
