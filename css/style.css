@@ -114,11 +114,11 @@ nav li{
   max-height: 40px;
   padding: 0 3%;
 }
-.cart-icon{
+.cart-container img{
   width: 100%;
   max-height: 40px;
 }
-.item-count{
+.cart-container span{
   display: none;
   color:white;
   background-color: #e2574c;

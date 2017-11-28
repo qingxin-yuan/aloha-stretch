@@ -75,7 +75,7 @@ $(function() {
   $('.add-item').on('click',function(event){
     event.preventDefault();
     count++;
-    $('.item-count').html(count).css('display','block');
+    $('.cart-container span').html(count).css('display','block');
   })
 
 });
